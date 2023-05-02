@@ -1,0 +1,20 @@
+{
+  "name": "vercel-cli-custom-ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node --loader ts-node/esm --no-warnings ./cli.ts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "ts-node": "^10.9.1",
+    "vite": "^4.3.4"
+  },
+  "dependencies": {
+    "vercel": "^29.0.3"
+  }
+}
