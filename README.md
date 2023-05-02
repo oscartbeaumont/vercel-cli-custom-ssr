@@ -12,7 +12,9 @@ A demo of using the Vercel CLI for custom SSR
 
 #### Just use `vercel dev`?
 
-When using `vercel dev` it just runs Vite's dev server so the custom edge function is just ignored.
+When using `vercel dev` it just runs Vite's dev server and proxies to it but because my CLI has to create the edge function, Vercel's CLI is unaware of it and doesn't serve it.
+
+My CLI has to be in-charge of creating the edge function as it needs to inject the SSR manifest.
 
 #### Use a custom Vercel runtime?
 
