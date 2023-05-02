@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/server.ts": {
+      "runtime": "vercel-cli-custom-ssr-runtime@0.0.0"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "vercel-cli-custom-ssr-runtime",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "@vercel/build-utils": "^6.7.2"
+  },
+  "dependencies": {
+    "vite": "^4.3.4"
+  }
+}

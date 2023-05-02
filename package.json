@@ -11,10 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.16.3",
+    "@vercel/build-utils": "^6.7.2",
     "ts-node": "^10.9.1",
     "vite": "^4.3.4"
-  },
-  "dependencies": {
-    "vercel": "^29.0.3"
   }
 }
